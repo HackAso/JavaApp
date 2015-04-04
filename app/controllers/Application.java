@@ -31,7 +31,7 @@ public class Application extends Controller {
 //        }catch (SQLException e) {
 //            message = "失敗";
 //        }
-        return ok(index.render("Yasunaga みてるー！？."+message));
+        return ok(index.render("Yasunaga みてるー！？."));
     }
 
 }
